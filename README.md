@@ -9,7 +9,7 @@ Team Members
 4. Embed the screenshots in your README.md file.
 5. The README.md file should clearly identify the full name and GitHub username of each team member.
 ## Lab Steps
-### 1. Github Settings (Done)
+### 1. Github Settings
 - GitHub branch protection rules
 - GitHub Environment
 ### 2. Terraform Backend
