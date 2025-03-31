@@ -2,6 +2,12 @@
 Team Members
 - Qiaoqing Wu (wu000302)
 - Yue Gao (gao00094)
+## Submissions
+1. Submit the URL of your GitHub repository.
+2. Include in your submission a screenshot of the Pull Request showing the successful completion of the workflows - expand the "All checks have passed" section to show the steps.
+3. Include in your submission a screenshot of the Pull Request showing the expanded results of the Terraform Plan step.
+4. Embed the screenshots in your README.md file.
+5. The README.md file should clearly identify the full name and GitHub username of each team member.
 ## Lab Steps
 ### 1. Github Settings (Done)
 - GitHub branch protection rules
