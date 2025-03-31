@@ -9,8 +9,8 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = "wu000302-githubactions-rg"
-    storage_account_name = "wu000302githubactions"
+    resource_group_name  = "wu000302-githubaction-rg"
+    storage_account_name = "wu000302githubaction"
     container_name       = "tfstate"
     key                  = "prod.app.tfstate"
   }

@@ -15,13 +15,13 @@ provider "azurerm" {
 
 # Resource Group
 resource "azurerm_resource_group" "rg" {
-  name     = "wu000302-githubactions-rg"
+  name     = "wu000302-githubaction-rg"
   location = "canadacentral"
 }
 
 # Storage Account
 resource "azurerm_storage_account" "sa" {
-  name                     = "wu000302githubactions"
+  name                     = "wu000302githubaction"
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"
