@@ -173,7 +173,9 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: tfplan
-        path: .
+
+    - name: Move tfplan file to working directory
+      run: mv tfplan/tfplan tfplan
 
     # Terraform Apply
     - name: Terraform Apply
