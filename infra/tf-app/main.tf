@@ -15,5 +15,5 @@ resource "azurerm_subnet" "subnet" {
   name                 = "wu000302-a12-subnet"
   resource_group_name  = azurerm_resource_group.a12_rg.name
   virtual_network_name = azurerm_virtual_network.vnet.name
-  address_prefix       = ["10.0.1.0/24"]
+  address_prefixes       = ["10.0.1.0/24"]
 }
