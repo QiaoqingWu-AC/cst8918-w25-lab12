@@ -173,9 +173,14 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: tfplan
+    
+    - name: debug Locate tfplan file
+      run: |
+          echo "Searching for tfplan in workspace..."
+          find . -type f -name "tfplan" -exec ls -lh {} \;
 
-    - name: Move tfplan file to working directory
-      run: mv tfplan/tfplan tfplan
+    - name: Show file structure
+      run: tree -a -L 2
 
     # Terraform Apply
     - name: Terraform Apply
